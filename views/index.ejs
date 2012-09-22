@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title>Realtime Painting</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/socket.io.min.js"></script>
+    <script type="text/javascript" src="/js/client.js"></script>
+</head>
+<body>
+    <canvas id="canvas" width="700" height="500" >Your browser is not support canvas.</canvas>
+    <form name="form" action="">
+        color :
+        <select id="color">
+            <option value="#000">black</option>
+            <option value="#f00">red</option>
+            <option value="#080">green</option>
+            <option value="#ff0">yellow</option>
+            <option value="#00f">blue</option>
+        </select>
+        size :
+        <select id="size">
+            <option value="1">1px</option>
+            <option value="3">3px</option>
+            <option value="5">5px</option>
+            <option value="7">7px</option>
+            <option value="9">9px</option>
+            <option value="11">11px</option>
+        </select>
+    </form>
+
+</body>
+</html>
